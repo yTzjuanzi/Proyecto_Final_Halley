@@ -1,0 +1,16 @@
+# Haskell
+integrador-haskell/build/
+integrador-haskell/bin/
+integrador-haskell/dist-newstyle/
+
+# Salidas generadas
+salida/
+
+# Java
+java/out/
+*.class
+
+# Base de datos local
+*.db
+*.db-wal
+*.db-shm

@@ -1,0 +1,9 @@
+puerta,modulo_1,modulo_2,lector_tarjeta
+P1,COM,DOR,no
+P2,DOR,LAB-A,si
+P3,LAB-A,LAB-B,si
+P4,LAB-B,GEN,si
+P5,GEN,RAD,si
+P6,RAD,COM,no
+P7,GEN,ALM,si
+P8,ALM,EXT,si

@@ -1,0 +1,48 @@
+{
+  "estacion": "Halley-7",
+  "registros": [
+    {
+      "ts": "2041-06-14T01:30:00",
+      "tipo": "lectura",
+      "consumo_kw": {
+        "COM": 2.1,
+        "DOR": 1.4,
+        "LAB-A": 0.3,
+        "LAB-B": 0.9,
+        "GEN": 5.2,
+        "RAD": 1.1,
+        "ALM": 0.2
+      }
+    },
+    {
+      "ts": "2041-06-14T01:40:00",
+      "tipo": "corte",
+      "afecta": [
+        "COM",
+        "DOR",
+        "LAB-A",
+        "LAB-B",
+        "GEN",
+        "ALM"
+      ],
+      "nota": "RAD continua con baterias"
+    },
+    {
+      "ts": "2041-06-14T02:15:00",
+      "tipo": "restablecido"
+    },
+    {
+      "ts": "2041-06-14T02:20:00",
+      "tipo": "lectura",
+      "consumo_kw": {
+        "COM": 2.3,
+        "DOR": 1.2,
+        "LAB-A": 0.6,
+        "LAB-B": 0.9,
+        "GEN": 4.8,
+        "RAD": 1.3,
+        "ALM": 0.4
+      }
+    }
+  ]
+}
