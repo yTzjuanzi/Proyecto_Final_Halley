@@ -1,0 +1,31 @@
+cabal-version:      2.4
+name:               halley-integrador
+version:            0.1.0
+synopsis:           Halley-7, capacidad C1: integrar la evidencia (núcleo puro, IO en el borde)
+build-type:         Simple
+
+executable integrador
+    main-is:          Main.hs
+    hs-source-dirs:   app, src
+    other-modules:    Halley.Tipos
+                      Halley.Texto
+                      Halley.Tiempo
+                      Halley.Json
+                      Halley.Referencias
+                      Halley.Identidad
+                      Halley.Fuentes
+                      Halley.Validacion
+                      Halley.Integracion
+                      Halley.Salida
+                      Halley.Vivo
+    -- Solo paquetes que vienen con GHC: no hace falta descargar nada.
+    build-depends:    base >=4 && <5,
+                      array,
+                      bytestring,
+                      containers,
+                      text,
+                      time,
+                      directory,
+                      filepath
+    default-language: Haskell2010
+    ghc-options:      -O1 -Wall -Wno-name-shadowing -Wno-unused-do-bind
