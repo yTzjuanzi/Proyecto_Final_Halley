@@ -1,0 +1,7 @@
+{application, ingesta,
+ [{description, "Halley-7, capacidad C3: recibir la estacion en vivo"},
+  {vsn, "0.1.0"},
+  {mod, {ingesta_app, []}},
+  {registered, [ingesta_sup, conexion_sup, procesador, oyente]},
+  {applications, [kernel, stdlib, epgsql]},
+  {env, []}]}.
